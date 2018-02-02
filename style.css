@@ -27,33 +27,38 @@ body{
 .nav{
     height: 50px;
     margin: 15px;
+    text-align: center;
 }
 
 .element{
     width: 960px;
-    height: 50px;
+    height: 75px;
     font-family: Helvetica;
     font-size: 18px;
     background-color: #ebebeb;
     text-align: center;
+    color: #777;
+    
 }
 
 .section{
     background-color: #ebebeb;
     align: left;
     height: 300px;
-    width: 650px;
+    width: 495px;
     text-align: center;
     font-family: Helvetica;
     position: absolute;
     margin: 15px;
+    color: #777;
 }
 
 .aside{
     background-color: #ebebeb;
+    color: #777;
     align: right;
     height: 300px;
-    width: 300px;
+    width: 445px;
     float: right;
     text-align: center;
     font-family: Helvetica;
@@ -65,8 +70,8 @@ body{
 
 .article{
     background-color: #777;
-    color: white;
-    width: 600px;
+    color: #ebebeb;
+    width: 445px;
     height: 230px;
     text-align: center;
     font-family: Helvetica;
@@ -78,22 +83,25 @@ body{
 
 
 .box3{
-    width: 560px;
+    width: 405px;
     height: 50px;
     font-family: Helvetica;
     background-color: #ebebeb;
+    color: #777;
     text-align: center;
     position: relative;
     z-index: 2;
     bottom: 0px;
     margin: 20px;
+    font-weight: bold;
 }
 
 .box4{
-    width: 560px;
+    width: 405px;
     height: 100px;
     font-family: Helvetica;
     background-color: #ebebeb;
+    color: #777;
     text-align: center;
     position: relative;
     z-index: 2;
@@ -105,10 +113,11 @@ body{
 
 .footer{
     height :50px;
-    margin :25px;
+    margin :75px;
     position: relative;
     bottom: -330px;
     margin: 15px;
+    text-align: center;
 }
 
 
