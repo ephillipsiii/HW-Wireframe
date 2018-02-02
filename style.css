@@ -21,6 +21,12 @@ body{
     font-size: 18px;
     background-color: #ebebeb;
     text-align: center;
+    margin: 15px;
+}
+
+.nav{
+    height: 50px;
+    margin: 15px;
 }
 
 .element{
@@ -35,65 +41,74 @@ body{
 .section{
     background-color: #ebebeb;
     align: left;
-    height: 200px;
-    width: 200px;
+    height: 300px;
+    width: 600px;
     text-align: center;
     font-family: Helvetica;
     position: absolute;
+    margin: 15px;
 }
 
 .aside{
     background-color: #ebebeb;
     align: right;
-    height: 200px;
-    width: 200px;
+    height: 300px;
+    width: 300px;
     float: right;
     text-align: center;
     font-family: Helvetica;
+    overflow: scroll;
+    position: relative;
+    margin: 15px;
 }
 
 .article{
     background-color: #777;
     color: white;
-    width: 180px;
-    height: 175px;
+    width: 550px;
+    height: 230px;
+    text-align: center;
     font-family: Helvetica;
     position: absolute;
     z-index: 1;
+    margin: 25px;
 }
 
+
+
 .box3{
-    width: 160px;
+    width: 510px;
     height: 50px;
     font-family: Helvetica;
     background-color: #ebebeb;
     text-align: center;
-    position: absolute;
+    position: relative;
     z-index: 2;
-    bottom: 10px;
+    bottom: 0px;
+    margin: 20px;
 }
 
 .box4{
-    width: 160px;
+    width: 510px;
     height: 50px;
     font-family: Helvetica;
     background-color: #ebebeb;
     text-align: center;
-    position: absolute;
+    position: relative;
     z-index: 2;
-    bottom: 50px;
+    bottom: -5px;
+    margin: 20px;
+    overflow: scroll;
 }
-.nav{
-    height: 50px;
-}
+
 
 .footer{
     height :50px;
-    margin :15px;
+    margin :25px;
+    position: relative;
+    bottom: -350px;
+    text-align: center;
+    margin: 15px;
 }
 
-#aside::after{
-    content: "";
-    display: block;
-    clear: both;
-}
+
